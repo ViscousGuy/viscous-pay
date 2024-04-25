@@ -1,0 +1,12 @@
+{
+  "name": "Shubham Anchaliya",
+  "email": "admin@example.com",
+  "phone": "+919892501984",
+  "password": "password",
+  "identificationType": "driver license",
+  "identificationNumber": "F2468135",
+  "balance": 9000,
+  "address": "Mumbai, India",
+  "isVerified": true,
+  "isAdmin": true
+}

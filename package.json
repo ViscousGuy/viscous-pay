@@ -1,0 +1,19 @@
+{
+  "name": "viscous-pay",
+  "version": "1.0.0",
+  "description": "a minimal banking application",
+  "scripts": {
+    "server": "nodemon backend/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "shubham anchaliya",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
