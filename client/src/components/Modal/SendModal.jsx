@@ -117,6 +117,7 @@ const SendModal = ({ setSendModalOpen, receiverId }) => {
                       value={transactionType}
                       onChange={onChange}
                     >
+                      <option value="">select option</option>
                       <option value="payment">payment</option>
                       <option value="transfer">transfer</option>
                       <option value="deposit">deposit</option>
@@ -131,6 +132,7 @@ const SendModal = ({ setSendModalOpen, receiverId }) => {
                       value={reference}
                       onChange={onChange}
                     >
+                      <option value="">select option</option>
                       <option value="transaction ID">transaction ID</option>
                       <option value="payment reference">
                         payment reference

@@ -128,6 +128,7 @@ const Register = () => {
                 value={identificationType}
                 onChange={onChange}
               >
+                <option value="">Select option</option>
                 <option value="driver license">driver license</option>
                 <option value="passport">passport</option>
                 <option value="national ID">national ID</option>
